@@ -5,24 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EXÍMIO — Reunião Confirmada</title>
   <!-- Meta Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '4310254872561439');
-  fbq('track', 'PageView');
-  fbq('track', 'Schedule');
-</script>
-<noscript>
-  <img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=4310254872561439&ev=Schedule&noscript=1"/>
-</noscript>
-<!-- End Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '4310254872561439');
+    fbq('track', 'PageView');
+    fbq('track', 'Schedule');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=4310254872561439&ev=Schedule&noscript=1"/>
+  </noscript>
+  <!-- End Meta Pixel Code -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
@@ -66,7 +66,6 @@
       gap: 48px;
     }
 
-    /* ── Símbolo ── */
     .symbol {
       width: 72px;
       height: 72px;
@@ -74,14 +73,12 @@
       flex-shrink: 0;
     }
 
-    /* ── Divisor ── */
     .divider {
       width: 48px;
       height: 1px;
       background-color: var(--dourado);
     }
 
-    /* ── Bloco principal ── */
     .main {
       display: flex;
       flex-direction: column;
@@ -122,7 +119,6 @@
       max-width: 420px;
     }
 
-    /* ── Card de confirmação ── */
     .card {
       background-color: var(--azul);
       color: var(--offwhite);
@@ -186,7 +182,6 @@
       line-height: 1.6;
     }
 
-    /* ── Redes sociais ── */
     .social-section {
       display: flex;
       flex-direction: column;
@@ -240,7 +235,6 @@
       opacity: 0.6;
     }
 
-    /* ── Rodapé ── */
     footer {
       font-size: 11px;
       font-weight: 300;
@@ -253,34 +247,26 @@
 <body>
   <div class="container">
 
-    <!-- Símbolo -->
     <svg class="symbol" viewBox="-4 -4 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <!-- Estrela de Malta de 8 pontas — metade azul, metade dourada -->
       <path d="M36 4 L40 26 L62 20 L46 36 L62 52 L40 46 L36 68 L32 46 L10 52 L26 36 L10 20 L32 26 Z" fill="none"/>
-      <!-- Quadrado rotacionado base -->
       <g>
-        <!-- Metade esquerda/superior — azul profundo -->
         <path d="M36 4 L40 26 L36 36 L32 26 Z" fill="#0F1C2E"/>
         <path d="M62 20 L46 36 L36 36 L40 26 Z" fill="#0F1C2E"/>
         <path d="M62 52 L40 46 L36 36 L46 36 Z" fill="#C7A977"/>
         <path d="M36 68 L32 46 L36 36 L40 46 Z" fill="#C7A977"/>
         <path d="M10 52 L26 36 L36 36 L32 46 Z" fill="#C7A977"/>
         <path d="M10 20 L32 26 L36 36 L26 36 Z" fill="#0F1C2E"/>
-        <!-- Centro -->
         <circle cx="36" cy="36" r="7" fill="#F2F0EA"/>
         <circle cx="36" cy="36" r="3.5" fill="#C7A977"/>
       </g>
     </svg>
 
-    <!-- Bloco principal -->
     <div class="main">
       <p class="eyebrow">Reunião confirmada</p>
-
       <h1>
         Nos vemos em breve.<br/>
         <span>Agora é com a EXÍMIO.</span>
       </h1>
-
       <p class="body-text">
         Sua reunião foi agendada com sucesso. Confira seu e-mail — você receberá a confirmação com todos os detalhes do encontro.
       </p>
@@ -288,7 +274,6 @@
 
     <div class="divider"></div>
 
-    <!-- Card de próximos passos -->
     <div class="card">
       <p class="card-label">Próximos passos</p>
       <p class="card-title">O que acontece até a nossa conversa</p>
@@ -311,11 +296,9 @@
 
     <div class="divider"></div>
 
-    <!-- Redes sociais -->
     <div class="social-section">
       <p class="social-label">Acompanhe no Instagram</p>
       <div class="social-links">
-        <!-- Instagram Lucas -->
         <a href="https://instagram.com/olucas.lemos" target="_blank" rel="noopener" class="social-link">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
@@ -324,10 +307,7 @@
           </svg>
           @olucas.lemos
         </a>
-
         <div class="social-dot"></div>
-
-        <!-- Instagram EXÍMIO -->
         <a href="https://instagram.com/seja.eximio" target="_blank" rel="noopener" class="social-link">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
@@ -339,7 +319,6 @@
       </div>
     </div>
 
-    <!-- Rodapé -->
     <footer>EXÍMIO &nbsp;·&nbsp; Resultados com estrutura</footer>
 
   </div>
